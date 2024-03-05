@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="petstore.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PetStore</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Акції</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Оплата та доставка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Відгуки</a>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="пошук товарів" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary " style="width: 280px;">
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="svg replaced-svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#231F20" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2">
+                                <path
+                                    d="M3.925 12.364C2.32 12.364 2 8.526 2 7.268c0-.643.135-1.112.305-1.44.433-.83 3.985-.887 4.703-.796.572.073 1.177.553 1.505 1.52l-.003.004c1.059-.34 2.242-.515 3.49-.53 1.248.015 2.432.19 3.49.53l-.002-.004c.328-.967.932-1.447 1.505-1.52.717-.09 4.269-.035 4.703.796.17.328.304.797.304 1.44 0 1.258-.321 5.096-1.924 5.096">
+                                </path>
+                                <path
+                                    d="M7.32 9.86c-.524 1.374-1.655 2.504-3.395 2.504-.007.09-.011.227-.014.425.05 4.374 3.54 6.855 8.089 6.917 4.548-.062 8.039-2.543 8.09-6.917a8.865 8.865 0 0 0-.014-.425c-1.74 0-2.871-1.13-3.397-2.503">
+                                </path>
+                            </g>
+                        </svg>
+                        Собаки
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="svg replaced-svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#231F20" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2">
+                                <path
+                                    d="M16.37 8.179C16.243 8.089 14.863 6.88 12 6.88h-.002c-2.862 0-4.243 1.21-4.368 1.299">
+                                </path>
+                                <path
+                                    d="M9.739 4.817C8.799 3.153 8.736 3 8.094 3 6.91 3 4 7.747 4 13.172c0 4.309 3.461 6.737 7.977 6.747h.046C16.54 19.91 20 17.481 20 13.172 20 7.747 17.088 3 15.906 3c-.641 0-.704.152-1.638 1.805">
+                                </path>
+                            </g>
+                        </svg>
+                        Коти
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="svg replaced-svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#231F20" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2">
+                                <path
+                                    d="M18.068 3a3.308 3.308 0 0 1 3.307 3.308c0 1.826-.928 2.223-1.736 3.115-1.571 1.737 1.736 4.619-.381 8.835-1.576 3.138-7.032 4.204-10.14 1.096M18.068 3c-3.568 0-4.974 4.688-7.422 8.333C8.198 14.98 4.864 19.597 2 19.597M7.24 16.248c1.507 1.161 6.333.988 8.694-2.623">
+                                </path>
+                            </g>
+                        </svg>
+                        Птахи
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="svg replaced-svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#231F20" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2">
+                                <path
+                                    d="M18.068 3a3.308 3.308 0 0 1 3.307 3.308c0 1.826-.928 2.223-1.736 3.115-1.571 1.737 1.736 4.619-.381 8.835-1.576 3.138-7.032 4.204-10.14 1.096M18.068 3c-3.568 0-4.974 4.688-7.422 8.333C8.198 14.98 4.864 19.597 2 19.597M7.24 16.248c1.507 1.161 6.333.988 8.694-2.623">
+                                </path>
+                            </g>
+                        </svg>
+                        Риби
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="svg replaced-svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2">
+                                <path
+                                    d="M5.527 12.007a4.067 4.067 0 1 1 4.606-4.031M13.37 7.976a4.067 4.067 0 1 1 4.624 4.028">
+                                </path>
+                                <path
+                                    d="M10.128 7.951a8.734 8.734 0 0 1 1.624-.147c.56 0 1.105.049 1.623.147M17.173 10.205c.64.89 1.01 2.021 1.01 3.39 0 3.814-4.32 7.625-6.43 7.625-2.114 0-6.433-3.811-6.433-7.625 0-1.355.363-2.478.991-3.364">
+                                </path>
+                            </g>
+                        </svg>
+                        Гризуни
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path
+                                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                        </svg>
+                        Інші тварини
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="items">
+            <div class="card" style="width:15rem;">
+                <img src="https://lapki.pet/uploads/ad/4303/preview/da2a1322306995f9f569bbf46a40c436.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Мальтіпу</h5>
+                    <p class="card-text">Ціна</p>
+                </div>
+            </div>
+            <div class="card" style="width:15rem;">
+                <img src="https://lapki.pet/uploads/ad/4301/preview/d45d812674268994d9e1279754320ca6.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Папійон</h5>
+                    <p class="card-text">Ціна </p>
+                </div>
+            </div>
+            <div class="card" style="width:15rem;">
+                <img src="https://lapki.pet/uploads/ad/4235/preview/1c8d611332cff69b0acf31881422901c.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Мальтезе</h5>
+                    <p class="card-text">Ціна </p>
+                </div>
+            </div>
+            <div class="card" style="width:15rem;">
+                <img src="https://lapki.pet/uploads/ad/4210/preview/54e06e5448ead8d300b38fdf9664b214.jpeg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Джек Рассел</h5>
+                    <p class="card-text">Ціна</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
