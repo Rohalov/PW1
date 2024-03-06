@@ -2,12 +2,15 @@ main{
     display: flex; 
 }
 
-.items{
+.d-flex{
+    flex-shrink: inherit!important;
+}
+
+.card-group{
     margin: 0.4%;
 }
 
 .card{
-    float: left;
     margin: 0.2%;
 }
 
